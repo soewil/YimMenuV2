@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20.x)
 
 include(cmake/cross-compile.cmake)
 
-project(YimMenuV2 DESCRIPTION "desc")
+project(YimMenuV2 VERSION 0.0.1 DESCRIPTION "desc")
 
 # libs
 include(cmake/async-logger.cmake)
